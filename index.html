@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>13-A1</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body class="open-sans">
+  <body class="inter">
     <header>
       <nav>
         <div class="logo"><img src="images/logo-navbar.png" alt="" /></div>
@@ -21,7 +28,7 @@
           <li><a href="#">How It Works</a></li>
           <li><a href="#">Why It's Different</a></li>
         </ul>
-        <button class="btn">Get Early Access</button>
+        <div><button class="btn">Get Early Access</button></div>
       </nav>
     </header>
     <!-- section-1 -->
@@ -29,17 +36,20 @@
       <span class="bed">Early Access Now Open</span>
       <h1>
         Structured thinking,<br />
-        <span class="hightlight">not just note-taking.</span>
+        <span class="hightlight">Not just note-taking.</span>
       </h1>
       <p>
         A private space to store notes, links, and learning summaries — designed
         to <br />
+        <br />
         help you think clearly, connect ideas, and turn learning into long-term
         knowl
       </p>
       <div class="hero-btn">
-        <button class="btn-1">Start Building Your Vault</button>
-        <button class="btn-2">See How It Works</button>
+        <button class="btn-1 btn">
+          Start Building Your Vault <i class="fa-solid fa-right-long"></i>
+        </button>
+        <button class="btn-2 btn"><i class="fa-regular fa-circle-play"></i> See How It Works</button>
       </div>
     </section>
     <!-- section-2 -->
@@ -51,20 +61,32 @@
       </p>
       <div class="family-card">
         <div class="card">
+          <div class="family-card-image">
+            <img src="./images/Vector.png" alt="" />
+          </div>
           <h3>Scattered notes</h3>
           <p>Your ideas live in 10 different apps,none of them connected.</p>
         </div>
         <div class="card">
+          <div class="family-card-image">
+            <img src="./images/Bookmarks.png" alt="" />
+          </div>
           <h3>Bookmark overloadered</h3>
           <p>Hundreds of saved links you'll never revisit or remember.</p>
         </div>
         <div class="card">
+          <div class="family-card-image">
+            <img src="./images/Brain.png" alt="" />
+          </div>
           <h3>No idea connections</h3>
           <p>
             Insights stay isolated, never building into bigger understanding.
           </p>
         </div>
         <div class="card">
+          <div class="family-card-image">
+            <img src="./images/Info.png" alt="" />
+          </div>
           <h3>
             Forgetting what <br />
             you learned
@@ -76,31 +98,67 @@
     <!-- section-3 -->
     <section class="Solution">
       <div class="Solution-image">
-        <img src="./images/knowledge.png" alt="" /></div>
-      <div  class="Solution-container">
+        <img src="./images/knowledge.png" alt="" />
+      </div>
+      <div class="Solution-container">
         <span>The Solution</span>
-      <h2>Your second brain,structured by design.</h2>
-      <p>
-        Personal Knowledge Vault isn't another note-taking app.z <br>It's a thinking
-        environment where every note, link, and summary <br>becomes part of an
-        interconnected web of understanding.
-      </p>
-      <ul>
-        <li><a href="#"><img src="./images/CheckCircle.png" alt=""></a>Capture ideas with structure built-in from day one</li>
-        <li><a href="#"><img src="./images/CheckCircle.png" alt=""></a>Connect related concepts automatically as you write</li>
-        <li><a href="#"><img src="./images/CheckCircle.png" alt=""></a> Build lasting knowledge through reflection prompts</li>
-        <li><a href="#"><img src="./images/CheckCircle.png" alt=""></a>Find anything instantly with semantic search</li>
-      </ul>
+        <h2>Your second brain, <br />structured by design.</h2>
+        <p>
+          Personal Knowledge Vault isn't another note-taking app.z <br />It's a
+          thinking environment where every note, link, and summary <br />becomes
+          part of an interconnected web of understanding.
+        </p>
+        <ul>
+          <li>
+            <a href="#"><img src="./images/CheckCircle.png" alt="" /></a>Capture
+            ideas with structure built-in from day one
+          </li>
+          <li>
+            <a href="#"><img src="./images/CheckCircle.png" alt="" /></a>Connect
+            related concepts automatically as you write
+          </li>
+          <li>
+            <a href="#"><img src="./images/CheckCircle.png" alt="" /></a> Build
+            lasting knowledge through reflection prompts
+          </li>
+          <li>
+            <a href="#"><img src="./images/CheckCircle.png" alt="" /></a>Find
+            anything instantly with semantic search
+          </li>
+        </ul>
       </div>
     </section>
     <!-- section-3 end -->
-     <section class="ready-to">
-        <h2>Ready To Think More Clearly?</h2>
-        <p>Join thousands of learners who are building their personal knowledge vaults. <br>
-            Start free, no credit card required.</p>
-        <button class="btn-3">Get Early Access</button>
-        <p>Free during early access • No credit card needed</p>
-     </section>
-     
+    <section class="ready-to">
+      <h2>Ready To Think More Clearly?</h2>
+      <p>
+        Join thousands of learners who are building their personal knowledge
+        vaults. <br />
+        Start free, no credit card required.
+      </p>
+      <button class="btn-3 btn">Get Early Access</button>
+      <p>Free during early access • No credit card needed</p>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./images/logo-footer.png" alt="" />
+          </div>
+          <div class="social-links">
+            <h4>Social Link</h4>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr />
+          <div class="parsonal">
+            © 2026 Personal Knowledge Vault. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

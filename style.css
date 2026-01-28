@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.open-sans {
-  font-family: "Open Sans", sans-serif;
+
+.inter {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 /* header start */
@@ -14,6 +15,7 @@ header{
     /* border: 1px solid red; */
        width: 100%;
     max-width: 1140px;
+   
 }
 nav{
     display: flex;
@@ -23,7 +25,8 @@ nav{
  
 }
 .logo{
-    height: 35px;
+    /* height: 35px; */
+    width: 139px;
 }
 .nav-link{
     list-style: none;
@@ -46,6 +49,15 @@ nav{
     font-weight: 600;
     cursor: pointer;
     font-size: 16px;
+}
+.btn:hover{
+    background-color: white;
+    color:#469165;
+}
+.card:hover{
+    background-color:rgb(169, 199, 108);
+    border: none;
+    
 }
 /* header end */
 
@@ -79,7 +91,7 @@ nav{
 .hero p{
     font-size: 18px;
     color: #FFFFFF;
-    max-width: 1340px;
+    text-align: center;
 }
 .hero-btn{
     display: flex;
@@ -117,28 +129,41 @@ nav{
 .family h2{
     font-size: 48px;
     color: #001931;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 30px;
 }
 .family p{
     font-size: 16px;
      margin-top: 16px;
+     color: #627382;
 
 }
 .family-card{
     display: flex;
     justify-content: center;
     gap: 20px;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: 0 auto;
 
 }
+.family-card-image{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+    justify-content: center;
+}
 .card{
     background: #FFFFFF;
-    border: 1px solid red;
+    box-shadow: 0px 3px 27px 0px rgba(59, 84, 73, 0.5);
+
     padding: 24px 24px;
     border-radius: 8px;
     margin-top: 44px;
+   
 }
 .card h3{
     font-size: 24px;
@@ -148,6 +173,7 @@ nav{
 .card p{
     font-size: 16px;
     color: #627382;
+    width: 274px;
 }
 /* section 2 end */
 /* section-3 start*/
@@ -169,12 +195,11 @@ nav{
     font-size: 16px;
     color: #469165;
     font-weight: 700;
-    display: ;
     margin-bottom: 16px;
 }
 .Solution-container h2{
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 44px;
+    font-weight: 700;
     color: #001931;
     margin-bottom: 16px;
 
@@ -201,11 +226,12 @@ nav{
     text-align: center;
     border-radius: 12px;
     max-width: 1100px;
-    margin: 120px auto;
+    margin: 120px ;
+    margin-top: 0;
 }
 .ready-to h2{
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     color: #001931;
     margin-bottom: 16px;
 }
@@ -223,6 +249,39 @@ nav{
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    margin-bottom: 16px;
+}
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+    color: #FFFFFF;
+    text-align: center;
+
+    
+}
+footer hr{
+    color: #E5E7EB;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+.social-links{
+    color: #FFFFFF;
+}  
+.social-links h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.social-links a{
+    color: #FFFFFF;
 }
 
    
