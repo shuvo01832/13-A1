@@ -7,6 +7,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
+/* header start */
 header{
     background-color: #FFFFFF;
     padding: 20px 120px;
@@ -46,6 +47,9 @@ nav{
     cursor: pointer;
     font-size: 16px;
 }
+/* header end */
+
+/* Hero section start */
 .hero{
     background-color: #469165;
     background-image: url("images/hero-bg.png");
@@ -67,7 +71,7 @@ nav{
 .hero h1{
     font-size: 72px;
     font-weight: 700;
-    margin-bottom: 24px;
+    margin-top: 24px;
 }
 .hightlight{
    color: #30B868; 
@@ -80,7 +84,7 @@ nav{
 .hero-btn{
     display: flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-top: 32px;
     gap: 16px;
 }
 .btn-1{
@@ -101,3 +105,91 @@ nav{
     border: 1px solid white;
     padding: 16px 12px;
 }
+/* hero section end */
+
+/* section-2 start */
+.family{
+    text-align: center;
+    background-color: #FFFFFF;
+   
+
+}
+.family h2{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.family p{
+    font-size: 16px;
+     margin-top: 16px;
+
+}
+.family-card{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.card{
+    background: #FFFFFF;
+    border: 1px solid red;
+    padding: 24px 24px;
+    border-radius: 8px;
+    margin-top: 44px;
+}
+.card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    color: #627382;
+}
+/* section 2 end */
+.Solution{
+    display: flex;
+    padding: 120px 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #FFFFFF;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.Solution-image{
+    max-width: 100%;
+    flex: 1;
+}
+.Solution-container span{
+    font-size: 16px;
+    color: #469165;
+    font-weight: 700;
+    display: ;
+    margin-bottom: 16px;
+}
+.Solution-container h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.Solution-container p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.Solution-container li{
+    font-size: 16px;
+    color: #001931;
+    margin-bottom: 15px ;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+
+}
+   
